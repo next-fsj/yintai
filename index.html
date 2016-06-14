@@ -1,1924 +1,393 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>银泰</title>
-	<script src="js/function1.js"></script>
-	<script src="js/animate.js"></script>
-	<script src="js/yintai.js"></script>
-	<link rel="stylesheet" href="css/yintai.css">
-
+	<title>个人主页</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Peak Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->	
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.97074.js"></script>
+	<!-- js -->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
 </head>
 <body>
-	<!-- head -->
-	<div class="head">
-		<div class="head_out">
-		<ul class="ul_left">
-			<li><a href=""><img src="images/1.jpg" alt=""></a></li>
-			<li><a href="">银泰首页</a></li>
-			<li><a href="">|</a></li>
-			<li><a href=""><img src="images/2.jpg" alt=""></a></li>
-			<li class="weixin"><a href="">微信</a>
-				<img src="images/weixin.png" alt="" class="wximg">
-			</li>
-			<li><a href="">|</a></li>
-			<li><a href=""><img src="images/3.jpg" alt=""></a></li>
-			<li class="weixinn"><a href="">手机银泰</a>
-				<img src="images/weixin1.png" alt="" class="wximgg">
-			</li>
-		</ul>
-		<ul class="ul_right">
-			<li><a href="">Hi,欢迎来到银泰网!</a></li>
-			<li><a href="">登录</a></li>
-			<li><a href="">注册</a></li>
-			<li><a href="">|</a></li>
-			<li><a href="">我的订单</a></li>
-			<li><a href="">|</a></li>
-			<li class="wdyt"><a href="">我的银泰</a>
-				<div class="wdytt">
-					<ul>
-						<li><a href="">我的收藏</a></li>
-						<li><a href="">我的余额</a></li>
-						<li><a href="">我的银元</a></li>
-						<li><a href="">我的银泰卡</a></li>
-						<li><a href="">我的优惠券</a></li>
-						<li><a href="">我的积分</a></li>
-					</ul>
+<!-- banner -->
+<div id="home" class="banner">
+	<div class="container">
+		<div class="banner-grids">
+			<div class="col-md-4 navigation">
+				<div class="nav-left">
+					<div class="grid__item color-4">
+						<a class="link link--kumya" href="#home"><span data-letters="PEAK">PEAK</span></a>
+					</div>
 				</div>
-				</li>
-			<li><a href="">|</a></li>
-			<li><a href="">银泰卡</a></li>
-			<li><a href="">|</a></li>
-			<li><a href="">帮助中心</a></li>
-		</ul>
+				<div class="nav-right">
+						<span class="menu"><img src="images/menu.png" alt="" /></span>
+							<nav class="cl-effect-1">
+								<ul class="nav1">
+									<li><a class="scroll" href="#home">简介</a></li>
+									<li><a class="scroll" href="#about">工作经历</a></li>
+									<li><a class="scroll" href="#portfolio">作品展示</a></li>
+									<li><a class="scroll" href="#services">项目经验</a></li>
+									<li><a class="scroll" href="#contact">联系方式</a></li>
+								</ul>
+							</nav>
+							<!-- script for menu -->
+							<script> 
+								$( "span.menu" ).click(function() {
+								$( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								});
+								});
+							</script>
+							<!-- //script for menu -->
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-8 banner-image text-center">
+
+				 <div class="xinxi">
+                  <img src="./images/98f7b493af3593e89fe29deec7f3d891.jpeg">   	
+			    </div>
+			      <ul class="xinxi1">
+				    <li>姓名：樊帅江</li>
+				    <li>姓别：男</li>
+				    <li>学历：本科</li>
+				    <li>学院：山西工商学院</li>
+				    <li>专业：计算机科学与技术</li>
+			      </ul>
+			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
-	<!-- content -->
-	<div>
-		<!-- nav -->
-		<div class="nav">
-			<div class="nav_out">
-			<div class="nav1">
-				<div class="nav1_left">
-				<ul>
-					<li><div class="nav1_tu2"><img src="images/4.jpg" alt="" ></div></li>
-					<li><div class="nav1_tu"><img src="images/5.jpg" alt="" ></div></li>
-					<li><div class="nav1_tu1"><img src="images/6.jpg" alt="" ></div></li>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<div class="about-info">
+				<h3>工作经历</h3>
+		</div>
+		<div class="about-grids">
+		    <div class="col-md-4 about-grid">
+		    <h4>山西工商学院</h4>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大学生活好比一个缩小的社会，让我在4年的时光了学到了很多的知识，并对计算机网络产生浓厚的兴趣。</p>
+		    </div>
+		   	<div class="col-md-4 about-grid">
+		   		<h4>大同陕汽专业汽车有限公司</h4>
+		   		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这里为期一年的实习，开始接触一些网页方面的知识，并对公司的网站进行修改和维护。</p>
+		   	</div>
+		   	<div class="col-md-4 about-grid">
+		   		<h4>太原天晨信息科技有限公司</h4>
+		   		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在公司期间任职前端工程师一职，工作内容主要是利用html+css和jquery完成一些电商类的项目的制作。</p>
+		   	</div>
+		   	<div class="clearfix"> </div>
+		</div>   
+	</div>
+</div>
+<!-- //about -->
+<!-- my skills -->
+	<div class="our-skills">
+		<div class="container">
+			<div class="skill-info">
+				<h2>技能介绍</h2>
+			</div>
+			<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>AJAX</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>JAVASCRIPT</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>ANGULAR</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>css/css3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>JQUERY</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>HTML</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
+									,['#ced7df', '#76b852'],['#ced7df', '#76b852']
+									]
+								for (var i = 1; i <= 6; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 40 + ((i-1) * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 10,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+			</div>
+		</div>	
+	</div>
+<!-- //my skills -->
+<div id="portfolio" class="gallery">
+		<div class="container">
+				<script src="js/jquery.chocolat.js"></script>
+			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+			<!--light-box-files -->
+			<script type="text/javascript" charset="utf-8">
+			$(function() {
+				$('.gallery a').Chocolat();
+			});
+			</script>
+			<h3>作品展示</h3>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="/yintai"  target="_blank"class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/9a504fc2d5628535d19fb45990ef76c6a7ef634e.jpg" alt="" />
+							<div>
+								<h5>银泰网</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="yidong" rel="title" target="_blank" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/2016-06-13_141005.png" alt="" />
+							<div>
+								<h5>中国移动</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/jingdong" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/dd4b2030706ee6ffea8ec43c22e0d72f_367_252.jpg" alt="" />
+							<div>
+								<h5>京东商城</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/wuziqi" rel="title" target="_blank"class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/mzl.dqlnvssv.png" alt="" />
+							<div>
+								<h5>五子棋</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>	
+						<a href="/saolei" rel="title" target="_blank"class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/u=1076287071,3881435816&fm=21&gp=0.jpg" alt="" />
+							<div>
+								<h5>扫雷</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/daziyouxi" rel="title"target="_blank" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/61575.jpg" alt="" />
+							<div>
+								<h5>打字游戏</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="/pingguo" rel="title" target="_blank"class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/timg.jpg" alt="" />
+							<div>
+								<h5>苹果首页</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="baidu" rel="title" target="_blank"class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/63d9f2d3572c11df88ff8f0d612762d0f703c2f5_看图王.jpg" alt="" />
+							<div>
+								<h5>百度舆情</h5>
+								
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="QQyinyue" rel="title"target="_blank" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/00016c58d5f814383ea91a_看图王.jpg" alt="" />
+							<div>
+								<h5>QQ音乐</h5>
+								
+							</div>
+						</a>
+					</li>
+					<div class="clearfix"> </div>
 				</ul>
-				</div>
-				<div class="nav1_right">
-					<div>
-						<div >
-							<input type="text" value="奢品夏日专享 T恤 polo衫" class="sou1">
-						</div>
-						<div class="sou2"></div>
-						<div class="sou3"></div>
-					</div>
-					<div class="nav1_sp">
-						<ul>
-							<li><a href="">ARMANI&nbsp;JEANS</a></li>
-							<li><a href=""><p class="nav1_zt">奢品太阳镜</p></a></li>
-							<li><a href=""><p class="nav1_zt">专柜甄选好礼</p></a></li>
-							<li><a href="">硬箱</a></li>
-							<li><a href=""><p class="nav1_zt">美妆淘淘</p></a></li>
-							<li><a href="">奢尚新</a></li>
-						</ul>
-					</div>
+			</section>
+				<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+				<script type="text/javascript">
+					$(function() {
+						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+					});
+				</script>
+        </div>	
+</div>
+<!--//gallery-->
+<!--services-->
+<div id="services" class="services">
+	<div class="container">
+		<div class="ser-head">
+			<h3>项目经验</h3>
+		</div>
+		<div class="wel-grids">
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+					</figure>
+					<h3>HTML</h3>
+					<p>运用html+css独立完成一些电商类项目布局,熟练的掌握其制作的方法.</p>
 				</div>
 			</div>
-			<div class="nav2">
-				<div class="nav2_left"><p>全部分类</p></div>
-				<div class="nav2_mid">
-					<ul>
-						<li><a href="">银泰百货</a></li>
-						<li><a href="">名品馆</a></li>
-						<li><a href="">特卖</a></li>
-						<li><a href="">海淘馆</a></li>
-						<li><a href="">荣耀旗舰店</a></li>
-					</ul>
-				</div>
-				<div class="nav2_right">
-					<ul>
-						<li><a href="">积分商城</a></li>
-						<li><a href="">|</a></li>
-						<li><a href="">全部品牌</a></li>
-					</ul>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+					</figure>
+					<h3>css3</h3>
+					<p>运用scss仿照apple首页独立完成apple首页响应式布局.</p>
 				</div>
 			</div>
-			</div>
-		</div>
-		<!-- banner -->
-		<div class="banner">
-			<div class="banner_out">
-				<div class="banner_left">
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/07.png" alt=""></div></li>
-							<li><a href="">名品</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">惠买奢</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">男装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">衬衫</p></li>
-									<li><p class="sidezt2">T恤</p></li>
-									<li><p class="sidezt3">裤装</p></li>
-									<li><p class="sidezt3">卫衣</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">女装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">裙装</p></li>
-									<li><p class="sidezt2">衬衫</p></li>
-									<li><p class="sidezt3">裤装</p></li>
-									<li><p class="sidezt3">T恤</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">鞋靴</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">女士单鞋</p></li>
-									<li><p class="sidezt2">中跟鞋</p></li>
-									<li><p class="sidezt3">男鞋</p></li>
-									<!-- <li><p class="sidezt3">低跟鞋</p></li> -->
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">男包</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">钱包</p></li>
-									<li><p class="sidezt2">单肩包</p></li>
-									<li><p class="sidezt3">手提包</p></li>
-									<li><p class="sidezt3">手拿包</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">女包</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">手提斜挎包</p></li>
-									<li><p class="sidezt2">单肩包</p></li>
-									<li><p class="sidezt3">钱夹</p></li>
-									<!-- <li><p class="sidezt3">手拿包</p></li> -->
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">海淘</p></div>
-								<div><ul>
-									<li><p class="sidezt2">保税</p></li>
-									<li><p class="sidezt2">零食</p></li>
-									<li><p class="sidezt2">美妆</p></li>
-									<li><p class="sidezt3">婴童</p></li>
-									<li><p class="sidezt3">配饰</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>ALX QUEEN</li>
-								<li>BURBERRY</li>
-								<li>FRAGAMMO</li>
-								<li>GUCCI COACH</li>
-								<li>AMANI JEANS</li>
-								<li>DESEVE VERSI</li>
-								<li>MAXCO</li>
-								<li>FRED PERRY</li>
-								<li>CELINE</li>
-								<li>SPORTMAX</li>
-								<li>MACHAO CORS</li>
-								<li>ZEG FANDI</li>
-								<li>BALLY</li>
-								<li>EMPRO AMANI</li>
-							</ul></div>
-						</div>
-					</div>
-
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/9.jpg" alt=""></div></li>
-							<li><a href="">女装</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">春夏上新</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">热门搜索</p></div>
-								<div><ul>
-									<li><p class="sidezt2">商场同款</p></li>
-									<li><p class="sidezt2">连衣裙</p></li>
-									<li><p class="sidezt2">打底裤</p></li>
-									<li><p class="sidezt3">半身裙</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">流行元素</p></div>
-								<div><ul>
-									<li><p class="sidezt2">欧美风</p></li>
-									<li><p class="sidezt2">英伦风</p></li>
-									<li><p class="sidezt2">韩范</p></li>
-									<li><p class="sidezt3">简约风</p></li>
-									<li><p class="sidezt3">刺绣</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">上装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">针织衫</p></li>
-									<li><p class="sidezt2">外套</p></li>
-									<li><p class="sidezt2">风衣</p></li>
-									<li><p class="sidezt3">小西装</p></li>
-									<li><p class="sidezt3">西服</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">下装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">牛仔裤</p></li>
-									<li><p class="sidezt2">休闲裤</p></li>
-									<li><p class="sidezt2">西装裤</p></li>
-									<li><p class="sidezt3">九分裤</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">女包</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">手提斜挎包</p></li>
-									<li><p class="sidezt2">单肩包</p></li>
-									<li><p class="sidezt3">钱夹</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">裙装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">半身裙</p></li>
-									<li><p class="sidezt2">长袖裙</p></li>
-									<li><p class="sidezt2">牛仔裙</p></li>
-									<li><p class="sidezt3">雪纺裙</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>优黛儿 尼特名</li>
-								<li>美乐仕 TRY</li>
-								<li>诗丽妃</li>
-								<li>夏娃的诱惑</li>
-								<li>红豆 康妮雅</li>
-								<li>happybra</li>
-								<li>缘份 体会</li>
-								<li>恒源祥内衣</li>
-								<li>爱帝 顶瓜瓜</li>
-								<li>花花公子</li>
-								<li>桑扶兰 爱慕</li>
-								<li>夏娃的诱惑</li>
-								<li>ELLE内衣 CMYK</li>
-								<li>巴黎恋人 特蕾</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/10.jpg" alt=""></div></li>
-							<li><a href="">男装</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">型男单品</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">热门搜索</p></div>
-								<div><ul>
-									<li><p class="sidezt2">衬衫</p></li>
-									<li><p class="sidezt2">T恤</p></li>
-									<li><p class="sidezt2">外套</p></li>
-									<li><p class="sidezt3">休闲裤</p></li>
-									<li><p class="sidezt3">牛仔裤</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">春夏上新</p></div>
-								<div><ul>
-									<li><p class="sidezt2">长袖衬衫</p></li>
-									<li><p class="sidezt2">短袖衬衫</p></li>
-									<li><p class="sidezt2">POLO</p></li>
-									<li><p class="sidezt3">针织衫</p></li>
-									<!-- <li><p class="sidezt3">休闲裤</p></li> -->
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">上装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">衬衫</p></li>
-									<li><p class="sidezt2">夹克</p></li>
-									<li><p class="sidezt2">外套</p></li>
-									<li><p class="sidezt3">卫衣</p></li>
-									<!-- <li><p class="sidezt3">低跟鞋</p></li> -->
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">下装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">牛仔裤</p></li>
-									<li><p class="sidezt2">休闲裤</p></li>
-									<li><p class="sidezt2">西裤</p></li>
-									<li><p class="sidezt3">九分裤</p></li>
-									<li><p class="sidezt3">短裤</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">男士内衣</p></div>
-								<div><ul>
-									<li><p class="sidezt2">背心T恤</p></li>
-									<li><p class="sidezt2">家居服</p></li>
-									<li><p class="sidezt2">男士补品</p></li>
-									<li><p class="sidezt3">短裤</p></li>
-									<!-- <li><p class="sidezt3">手拿包</p></li> -->
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">海淘</p></div>
-								<div><ul>
-									<li><p class="sidezt2">保税</p></li>
-									<li><p class="sidezt2">零食</p></li>
-									<li><p class="sidezt2">美妆</p></li>
-									<li><p class="sidezt3">婴童</p></li>
-									<li><p class="sidezt3">配饰</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>柏图 GLM 伯爵卓尔</li>
-								<li>1ZOD 雷尼尔菲迪</li>
-								<li>菲克 天皇星</li>
-								<li>华帝卡尼</li>
-								<li>AMANI JEANS</li>
-								<li>DESEVE VERSI</li>
-								<li>MAXCO</li>
-								<li>俞兆林</li>
-								<li>恒源祥内衣</li>
-								<li>美国马球协会</li>
-								<li>迪赛吉普</li>
-								<li>ZEG FANDI</li>
-								<li>爱登堡</li>
-								<li>红豆</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/11.jpg" alt=""></div></li>
-							<li><a href="">鞋靴</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">时尚单品</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">热门搜索</p></div>
-								<div><ul>
-									<li><p class="sidezt2">平底鞋</p></li>
-									<li><p class="sidezt2">中跟鞋</p></li>
-									<li><p class="sidezt2">高跟鞋</p></li>
-									<li><p class="sidezt3">浅口鞋</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">女鞋</p></div>
-								<div><ul>
-									<li><p class="sidezt2">单鞋</p></li>
-									<li><p class="sidezt2">高跟鞋</p></li>
-									<li><p class="sidezt2">中跟鞋</p></li>
-									<li><p class="sidezt3">平跟鞋</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">男鞋</p></div>
-								<div><ul>
-									<li><p class="sidezt2">休闲鞋</p></li>
-									<li><p class="sidezt2">商务鞋</p></li>
-									<li><p class="sidezt2">皮鞋</p></li>
-									<li><p class="sidezt3">单鞋</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>美丽佳人 Shellys</li>
-								<li>AMIU 沙驰</li>
-								<li>马内尔 百伦</li>
-								<li>蒙拉蒂诺 君步</li>
-								<li>零度 帕达索</li>
-								<li>印心鸟 里珞</li>
-								<li>Mr.ing米斯特因</li>
-								<li>波派 CNE</li>
-								<li>如熙 斯米尔</li>
-								<li>康奈 雅贝嘉</li>
-								<li>奈琦儿 美国U牌</li>
-								<li>华伦世家 策乐</li>
-								<li>大洋洲袋鼠</li>
-								<li>朗蒂维 哈森</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/12.jpg" alt=""></div></li>
-							<li><a href="">美妆</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">爽肤水</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">面部保养</p></div>
-								<div><ul>
-									<li><p class="sidezt2">面膜</p></li>
-									<li><p class="sidezt2">护肤套装</p></li>
-									<li><p class="sidezt2">洁面</p></li>
-									<li><p class="sidezt3">乳液</p></li>
-									<li><p class="sidezt3">精华</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">魅力彩妆</p></div>
-								<div><ul>
-									<li><p class="sidezt2">BB霜</p></li>
-									<li><p class="sidezt2">卸妆</p></li>
-									<li><p class="sidezt2">美甲</p></li>
-									<li><p class="sidezt3">唇膏</p></li>
-									<li><p class="sidezt3">唇彩</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">香氛洗护</p></div>
-								<div><ul>
-									<li><p class="sidezt2">女士香水</p></li>
-									<li><p class="sidezt2">男士香水</p></li>
-									<li><p class="sidezt2">其他香氛</p></li>
-									<li><p class="sidezt3">香薰精油</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">身体护理</p></div>
-								<div><ul>
-									<li><p class="sidezt2">身体套装</p></li>
-									<li><p class="sidezt2">沐浴露</p></li>
-									<li><p class="sidezt2">身体乳</p></li>
-									<li><p class="sidezt3">身体清洁</p></li>					
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">科颜氏-健康肌肤必备</p></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">韩潮来袭 海淘购</p></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>丝塔芙 我的心机</li>
-								<li>曼秀雷敦</li>
-								<li>百雀羚 佰草集</li>
-								<li>理肤泉 所望</li>
-								<li>自然乐园 依云</li>
-								<li>Dodo SK-II</li>
-								<li>贝玲妃 欧舒丹</li>
-								<li>茵芙莎 倩碧</li>
-								<li>悦木之源</li>
-								<li>雅诗兰黛</li>
-								<li>资生堂 兰芝</li>
-								<li>赫莲娜 YSL</li>
-								<li>植村秀</li>
-								<li>欧珀莱 雅漾</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/13.jpg" alt=""></div></li>
-							<li><a href="">箱包</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">女神单肩</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">热门搜索</p></div>
-								<div><ul>
-									<li><p class="sidezt2">女士印花</p></li>
-									<li><p class="sidezt2">鳄鱼纹</p></li>
-									<li><p class="sidezt2">男士斜挎包</p></li>
-									<li><p class="sidezt3">链条包</p></li>
-									<!-- <li><p class="sidezt3">卫衣</p></li> -->
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">时尚女包</p></div>
-								<div><ul>
-									<li><p class="sidezt2">单肩包</p></li>
-									<li><p class="sidezt2">手提包</p></li>
-									<li><p class="sidezt2">斜挎包</p></li>
-									<li><p class="sidezt3">贝壳包</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">精品男包</p></div>
-								<div><ul>
-									<li><p class="sidezt2">双肩包</p></li>
-									<li><p class="sidezt2">斜挎包</p></li>
-									<li><p class="sidezt2">手提包</p></li>
-									<li><p class="sidezt3">帆布包</p></li>
-									<!-- <li><p class="sidezt3">低跟鞋</p></li> -->
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">功能包</p></div>
-								<div><ul>
-									<li><p class="sidezt2">证件夹</p></li>
-									<li><p class="sidezt2">钱包</p></li>
-									<li><p class="sidezt2">单肩包</p></li>
-									<li><p class="sidezt3">手拿包</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">旅行箱包</p></div>
-								<div><ul>
-									<li><p class="sidezt2">旅行包</p></li>
-									<li><p class="sidezt2">旅行箱</p></li>
-									<li><p class="sidezt2">万向滚轮拉杆箱</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>华伦天奴</li>
-								<li>卓凡尼 美迪欧</li>
-								<li>迪格里 Y6</li>
-								<li>威登保罗</li>
-								<li>SL 曼邦</li>
-								<li>海森梅尔</li>
-								<li>波斯丹顿</li>
-								<li>迪可 歌莉娅</li>
-								<li>日默瓦 那沃</li>
-								<li>妮维奥 only</li>
-								<li>MACHAO CORS</li>
-								<li>JESSIE JANE</li>
-								<li>佛莱尔唐.阿隆索</li>
-								<li>WEEKENDER 柒格格</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/14.jpg" alt=""></div></li>
-							<li><a href="">运动</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">外套夹克</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">运动休闲服</p></div>
-								<div><ul>
-									<li><p class="sidezt2">运动裤</p></li>
-									<li><p class="sidezt2">衬衫</p></li>
-									<li><p class="sidezt2">长袖</p></li>
-									<li><p class="sidezt3">Polo衫</p></li>
-									<li><p class="sidezt3">卫衣</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">运动鞋</p></div>
-								<div><ul>
-									<li><p class="sidezt2">跑步鞋</p></li>
-									<li><p class="sidezt2">篮球鞋</p></li>
-									<li><p class="sidezt2">复古鞋</p></li>
-									<li><p class="sidezt3">休闲鞋</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">健身运动服</p></div>
-								<div><ul>
-									<li><p class="sidezt2">瑜伽服</p></li>
-									<li><p class="sidezt2">女士泳装</p></li>
-									<li><p class="sidezt2">男士泳装</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">户外专业服</p></div>
-								<div><ul>
-									<li><p class="sidezt2">冲锋衣</p></li>
-									<li><p class="sidezt2">抓绒衣</p></li>
-									<li><p class="sidezt2">冲锋裤</p></li>
-									<li><p class="sidezt3">速干裤</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">户外鞋</p></div>
-								<div><ul>
-									<li><p class="sidezt2">徒步鞋</p></li>
-									<li><p class="sidezt2">休闲鞋</p></li>
-									<li><p class="sidezt2">登山鞋</p></li>
-									<li><p class="sidezt3">越野跑鞋</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">户外运动装备</p></div>
-								<div><ul>
-									<li><p class="sidezt2">运动背包</p></li>
-									<li><p class="sidezt2">户外背包</p></li>
-									<li><p class="sidezt2">运动配件</p></li>
-									<li><p class="sidezt3">户外装备</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>尤文图斯 颂拓</li>
-								<li>肯拓普骆驼</li>
-								<li>巴塞罗那足球俱乐部</li>
-								<li>李宁 锐步</li>
-								<li>RAX瑞行 狼爪</li>
-								<li>海泰客 斯凯奇</li>
-								<li>MLB 乐卡克</li>
-								<li>鬼冢虎 万斯</li>
-								<li>彪马 匡威</li>
-								<li>耐克</li>
-								<li>阿迪达斯 CORS</li>
-								<li>ZEG FANDI</li>
-								<li>BALLY</li>
-								<li>New Balance</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/15.jpg" alt=""></div></li>
-							<li><a href="">配饰</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">黄金饰品</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">最近热卖</p></div>
-								<div><ul>
-									<li><p class="sidezt2">银饰</p></li>
-									<li><p class="sidezt2">戒指</p></li>
-									<li><p class="sidezt2">黄金吊坠</p></li>
-									<li><p class="sidezt3">潮流饰品</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">品质手表</p></div>
-								<div><ul>
-									<li><p class="sidezt2">瑞士表</p></li>
-									<li><p class="sidezt2">机械表</p></li>
-									<li><p class="sidezt2">防水表</p></li>
-									<li><p class="sidezt3">石英表</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">配饰</p></div>
-								<div><ul>
-									<li><p class="sidezt2">太阳镜</p></li>
-									<li><p class="sidezt2">眼镜框</p></li>
-									<li><p class="sidezt2">女丝巾</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">珠宝</p></div>
-								<div><ul>
-									<li><p class="sidezt2">钻石</p></li>
-									<li><p class="sidezt2">黄金</p></li>
-									<li><p class="sidezt2">彩宝</p></li>
-									<li><p class="sidezt3">铂金</p></li>
-									<li><p class="sidezt3">K金</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">精选饰品</p></div>
-								<div><ul>
-									<li><p class="sidezt2">耳环</p></li>
-									<li><p class="sidezt2">发饰</p></li>
-									<li><p class="sidezt2">银饰</p></li>
-									<li><p class="sidezt3">水晶</p></li>
-									<li><p class="sidezt3">佛珠</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>ELLE 花珠</li>
-								<li>Inmix 艾尔蒂</li>
-								<li>上海故事</li>
-								<li>古钻 春生木缘</li>
-								<li>哈超 缘点</li>
-								<li>爱崋尚 MOOSIE</li>
-								<li>石玥珠宝 </li>
-								<li>玖品缘 念缘</li>
-								<li>珠韵首饰 润德典藏</li>
-								<li>尊爵珠宝</li>
-								<li>百泰首饰</li>
-								<li>珍珠皇后</li>
-								<li>李维斯 玺之语</li>
-								<li>妍韵 翠云间</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/16.jpg" alt=""></div></li>
-							<li><a href="">婴童</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">母婴</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">男童装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">衬衫</p></li>
-									<li><p class="sidezt2">T恤</p></li>
-									<li><p class="sidezt3">裤装</p></li>
-									<li><p class="sidezt3">卫衣</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">女童装</p></div>
-								<div><ul>
-									<li><p class="sidezt2">新品</p></li>
-									<li><p class="sidezt2">裙装</p></li>
-									<li><p class="sidezt2">衬衫</p></li>
-									<li><p class="sidezt3">裤装</p></li>
-									<li><p class="sidezt3">T恤</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">婴幼儿</p></div>
-								<div><ul>									
-									<li><p class="sidezt2">婴幼儿上衣</p></li>
-									<li><p class="sidezt2">婴幼儿套装</p></li>
-									<li><p class="sidezt3">婴幼儿裤子</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">童鞋</p></div>
-								<div><ul>
-									<li><p class="sidezt2">男童新品</p></li>
-									<li><p class="sidezt2">男童皮鞋</p></li>
-									<li><p class="sidezt2">男童布鞋</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">用品</p></div>
-								<div><ul>
-									<li><p class="sidezt2">睡袋/包袋</p></li>
-									<li><p class="sidezt2">学与玩</p></li>
-									<li><p class="sidezt2">宝宝护理</p></li>
-									<li><p class="sidezt3">睡袋/包袋</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>小蓝羊 木玩世家</li>
-								<li>大黄蜂 泡芙宝</li>
-								<li>婴侍卫 海绵宝宝</li>
-								<li>丑丑婴幼 波亚米特</li>
-								<li>瓢虫之家 贝贝怡</li>
-								<li>Anne Geddes</li>
-								<li>亿婴儿 冬己</li>
-								<li>史努比 Hape</li>
-								<li>CELINE</li>
-								<li>SPORTMAX</li>
-								<li>安杰娜 伯比</li>
-								<li>馨颂 费雪</li>
-								<li>苏黎世家 好孩子</li>
-								<li>十月妈咪</li>
-							</ul></div>
-						</div>
-					</div>
-					<div class="banner_lt1">
-						<ul class="img3">
-							<li><div class="banner_img1"><img src="images/17.jpg" alt=""></div></li>
-							<li><a href="">家居</a></li>
-							<li><p class="banner_leftzt">|</p></li>
-							<li><a href="">四件套</a></li>
-						</ul>
-						<ul class="banner_img2">
-							<li><img src="images/8.jpg" alt=""></li>
-						</ul>
-						<div class="sidexx">
-							<div class="sidexx_1 sidexx_nz">
-								<div><p class="sidezt1">布艺家纺</p></div>
-								<div><ul>
-									<li><p class="sidezt2">纯棉</p></li>
-									<li><p class="sidezt2">枕头</p></li>
-									<li><p class="sidezt2">毛毯</p></li>
-									<li><p class="sidezt3">坐垫</p></li>
-									<li><p class="sidezt3">被子</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">居家饰品</p></div>
-								<div><ul>
-									<li><p class="sidezt2">工艺摆件</p></li>
-									<li><p class="sidezt2">仿真花</p></li>
-									<li><p class="sidezt2">香薰蜡烛</p></li>
-									<li><p class="sidezt3">装饰画</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">厨房餐饮</p></div>
-								<div><ul>
-									<li><p class="sidezt2">水杯</p></li>
-									<li><p class="sidezt2">水壶</p></li>
-									<li><p class="sidezt2">茶具</p></li>
-									<li><p class="sidezt3">酒具</p></li>
-									<li><p class="sidezt3">咖啡具</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_1">
-								<div><p class="sidezt1">居家日用</p></div>
-								<div><ul>
-									<li><p class="sidezt2">收纳用品</p></li>
-									<li><p class="sidezt2">雨伞/雨具</p></li>
-									<li><p class="sidezt2">卫浴用品</p></li>
-									<li><p class="sidezt3">照明灯具</p></li>
-								</ul></div>
-							</div>
-							<div class="sidexx_2">
-								
-							</div>
-						</div>
-						<div class="sidexxx">
-							<div class="sidexxx_1"><p>品牌</p></div>
-							<div><ul>
-								<li>杜维雅 汇丰</li>
-								<li>旺家星 ESPRIT</li>
-								<li>司顿 蕾帝雅</li>
-								<li>迪士尼家居</li>
-								<li>DADA 爱之语</li>
-								<li>尚朵 雅客集</li>
-								<li>梦特娇-家居</li>
-								<li>公爵 拉丁</li>
-								<li>斐利比 玉鹭</li>
-								<li>优雅主妇</li>
-								<li>弗卡迪 家泰勒</li>
-								<li>欧润哲 Homix</li>
-								<li>尚顿 易千家</li>
-								<li>凯特之家</li>
-							</ul></div>
-						</div>
-					</div>
-				</div>
-				<div class="banner_box">
-				 <div class="banner_mid">
-					<a href=""><img src="images/banner0.jpg" alt=""></a>
-					<a href=""><img src="images/banner1.jpg" alt=""></a>
-					<a href=""><img src="images/banner2.jpg" alt=""></a>
-					<a href=""><img src="images/banner3.jpg" alt=""></a>
-
-					<ul >
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-
-				    <div class="lunbo_btnL"><img src="images/btnll.jpg" alt=""></div>
-				    <div class="lunbo_btnR"><img src="images/btnrr.jpg" alt=""></div>
-
-				  </div>
-				</div>
-				<div class="banner_right"><img src="images/19.jpg" alt=""></div>
-			</div>
-		</div>
-		<!-- content1 -->
-		<div class="content_1">
-			<div class="content1_out">
-				<div class="content1_left">
-					<div class="content1_top">
-						<ul>
-							<li>
-								<a href="">超值特卖</a>
-								<div class="content1_bot cztm0">
-									<div class="content1_b1">
-										<a href=""><img src="images/38.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/39.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/40.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/41.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>									
-								</div>
-								<div class="content1_sj csj"></div>
-							</li>
-							<li>
-								<a href="">爆款好货</a>
-								<div class="content1_bot1 cztm0">
-									<div class="content1_b1">
-										<a href=""><img src="images/bkhhaa.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/bkhhbb.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/bkhhcc.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/bkhhdd.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-								</div>
-								<div class="content1_sj1 csj"></div>
-							</li>
-							<li>
-								<a href="">手机专享</a>
-								<div class="content1_bot2 cztm0">
-									<div class="content1_b1">
-										<a href=""><img src="images/sjzx1.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/sjzx2.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/sjzx3.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-									</div>
-									<div class="content1_b1">
-										<a href=""><img src="images/sjzx4.jpg" alt=""></a>
-										<div class="b1_left"></div>
-										<div class="b1_right"></div>
-										<div class="b1_top"></div>
-										<div class="b1_bottom"></div>
-						   			 </div>
-								</div>
-								<div class="content1_sj2 csj"></div>
-							</li>
-						</ul>
-					</div>
-					
-					
-
-				</div>
-				<div class="content1_right"><a href=""><img src="images/44.jpg" alt=""></a></div>
-			</div>
-		</div>
-		<!-- 小背景 -->
-		<div class="xbj">
-			<a href=""><img src="images/20.jpg" alt=""></a>
-		</div>
-		<!-- content2 -->
-		<div class="content_2">
-			<div class="content2_out">
-				<div class="content2_top">
-					<ul>
-						<li ><a href=""><p class="content2_t1">银泰百货</p></a></li>
-						<li ><a href=""><p class="content2_t1 content2_t2">专柜同款</p></a></li>
-						<li class="content2_t1 content2_t3"><p>|</p></li>
-						<li><a href=""><p class="content2_t3">SPECIAL</p><p class="content2_t3">COUTER</p></a></li>
-					</ul>
-				</div>
-				<div class="content2_bot">
-					<div class="content2_b1"><img src="images/21.jpg" alt=""></div>
-					<div class="content2_b2">
-						<div class="content2_br1">
-							<ul>
-								<li><a href=""><p class="content2_brz">热门品牌</p></a></li>
-								<li><a href=""><p class="content2_brz1">本周推荐</p></a></li>
-							</ul>
-						</div>
-						<div class="content2_br2">
-							<a href="" class="content2_a"><img src="images/32.jpg" alt=""></a>
-							<a href="" class="content2_b"><img src="images/33.jpg" alt=""></a>
-							<a href="" class="content2_a"><img src="images/34.jpg" alt=""></a>
-							<a href="" class="content2_d"><img src="images/35.jpg" alt=""></a>
-							<a href="" class="content2_e"><img src="images/36.jpg" alt=""></a>
-							<a href="" class="content2_f"><img src="images/37.jpg" alt=""></a>
-						</div>
-						<!-- <div class="content2_br3">
-							<a href=""><img src="" alt=""></a>
-						</div> -->
-					</div>
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+					</figure>
+					<h3>JAVASCRIPT</h3>
+					<p>利用javascript结和静态布局的实现一些如选项卡、轮播等一些简单的功能.</p>
 				</div>
 			</div>
-		</div>
-		<!-- 小背景 -->
-		<div class="xbj">
-			<a href=""><img src="images/22.jpg" alt=""></a>
-		</div>
-		<!-- 时尚名品-->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">时尚名品</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">T恤</a></li>
-							<li><a href="">裙装</a></li>
-							<li><a href="">太阳镜</a></li>
-							<li><a href="">男士衬衫</a></li>
-							<li><a href="">针织衫</a></li>
-							<li><a href="">腰带</a></li>
-							<li><a href="">女士大包</a></li>
-							<li><a href="">钱包</a></li>
-							<li><a href="">女士单鞋</a></li>
-							<li><a href="">男士大包</a></li>
-							<li><a href="">男鞋</a></li>
-							<li><a href="">卫衣</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2 content3_bb22">
-						<div class="content3_b2img">
-							<a href=""><img src="images/ssmp1.jpg" alt=""></a>
-							<a href=""><img src="images/ssmp2.jpg" alt=""></a>
-						</div>
-						
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></li>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></li>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>
-					</div>
-					<div class="content3_b3 line1">
-						<!-- <div class="con3_b3box"> -->
-							<a href=""><img src="images/28.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-						<!-- </div> -->
-					</div>
-					<div class="content3_b4 line1">
-						
-						<a href=""><img src="images/29.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-						
-					</div>
-					<div class="content3_b5 line1">
-						
-						<a href=""><img src="images/30.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					
-					</div>
-
-					<div class="content3_b5 line1">
-						
-						<a href=""><img src="images/31.jpg" alt=""></a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-						
-					</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					</figure>
+					<h3>JQUERY</h3>
+					<p>运用jquery编写todos、扫雷等小程序.</p>
 				</div>
 			</div>
-		</div>
-		<!-- 潮流女装 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">潮流女装</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">连衣裙</a></li>
-							<li><a href="">T恤</a></li>
-							<li><a href="">衬衫</a></li>
-							<li><a href="">卫衣</a></li>
-							<li><a href="">风衣</a></li>
-							<li><a href="">小西装</a></li>
-							<li><a href="">休闲裤</a></li>
-							<li><a href="">半身裙</a></li>
-							<li><a href="">雪纺</a></li>
-							<li><a href="">打底裤</a></li>
-							<li><a href="">针织衫</a></li>
-							<li><a href="">冲锋衣</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2 ">
-						<div class="content3_b2img">
-							<a href=""><img src="images/ccd9f48f-b3f8-4a6b-bd8e-696e8f807a02.jpg" alt=""></a>
-							<a href=""><img src="images/clnz1.jpg" alt=""></a>
-						</div>
-						
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></li>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></li>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>
-					</div>
-					<div class="content3_b3 line1"><a href=""><img src="images/30e1e911-838c-48bd-9436-b5e84ce031fd.jpg" alt="">
-					</a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/0981d375-e1ae-4091-8886-7bee0eee4810.jpg" alt="">
-					</a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/8cbe2e04-0777-4de7-bbd5-4a87bc02c45b.jpg" alt="">
-					</a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/492f1e68-83a6-46c8-9a3b-be13fa0ed204.jpg" alt="">
-					</a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+					</figure>
+					<h3>AJAX</h3>
+					<p> 用phpcms后台与前台相结合，完成太化地产有限公司的整站制作.</p>
 				</div>
 			</div>
-		</div>
-		<!-- 精品男装 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">精品男装</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">长袖衬衫</a></li>
-							<li><a href="">短袖衬衫</a></li>
-							<li><a href="">Polo衫</a></li>
-							<li><a href="">长袖T恤</a></li>
-							<li><a href="">短袖T恤</a></li>
-							<li><a href="">九分裤</a></li>
-							<li><a href="">短裤</a></li>
-							<li><a href="">牛仔裤</a></li>
-							<li><a href="">休闲裤</a></li>
-							<li><a href="">战地吉普</a></li>
-							<li><a href="">伯爵卓尔</a></li>
-							<li><a href="">柏图</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2">
-						<div class="content3_b2img">
-							<a href=""><img src="images/fbf4e455-73b6-4968-a9f5-a49d74ce4b05.jpg" alt=""></a>
-							<a href=""><img src="images/ssnz1.jpg" alt=""></a>
-						</div>
-							<ul class="content3_li12">
-								<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></li>
-								<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></li>
-							</ul>
-							<ul class="content3_li34">
-								<li  class="content3_li3"></li>
-								<li  class="content3_li4"></li>
-							</ul>						
-					</div>
-					<div class="content3_b3 line1"><a href="">
-						<img src="images/765724c8-8118-4eb8-9525-c86ccf1a7c1d.jpg" alt=""></a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/4d088a40-1929-4259-bab9-ec4ca54c7edb.jpg" alt=""></a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/e5cc47a8-1235-4049-892d-3c92f3f36a30.jpg" alt=""></a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/aa4a5630-9ed1-43fb-8c0d-4cca87e6db96.jpg" alt=""></a>
-						<div class="b2_left"></div>
-						<div class="b2_right"></div>
-						<div class="b2_top"></div>
-						<div class="b2_bottom"></div>
-					</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+					</figure>
+					<h3>ANGULAR</h3>
+					<p>利用angular完成微信、和一点咨询等移动端的制作.</p>
 				</div>
 			</div>
-		</div>
-		<!-- 时尚女靴 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">时尚鞋靴</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">女鞋</a></li>
-							<li><a href="">男鞋</a></li>
-							<li><a href="">乐福鞋</a></li>
-							<li><a href="">女士凉鞋</a></li>
-							<li><a href="">休闲鞋</a></li>
-							<li><a href="">商务鞋</a></li>
-							<li><a href="">高跟鞋</a></li>
-							<li><a href="">平跟鞋</a></li>
-							<li><a href="">坡跟鞋</a></li>
-							<li><a href="">尖头鞋</a></li>
-							<li><a href="">鱼嘴鞋</a></li>
-							<li><a href="">豆豆鞋</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2">
-						<div class="content3_b2img">
-							<a href=""><img src="images/ecfec09e-9afc-495d-b5b1-3d5add4940ed.jpg" alt=""></a>
-							<a href=""><img src="images/ssxx1.jpg" alt=""></a>
-						</div>	
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></l>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></l>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>												
-					</div>
-					<div class="content3_b3 line1"><a href=""><img src="images/533871f5-0ba3-4886-8de7-c1ca82b98ff2.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/91bcc39a-ee96-460d-9cdd-387c98dbb3b1.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/5ef90491-8f2d-4394-b3b0-4889b7701495.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/ae0f2cc8-254d-4c19-898d-b38666c3efaa.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 潮流箱包 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">潮流箱包</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">女士单肩</a></li>
-							<li><a href="">女士斜跨</a></li>
-							<li><a href="">女士双肩</a></li>
-							<li><a href="">女士钱包</a></li>
-							<li><a href="">女士多种</a></li>
-							<li><a href="">女士手提</a></li>
-							<li><a href="">男士单肩</a></li>
-							<li><a href="">男士手提</a></li>
-							<li><a href="">男士钱包</a></li>
-							<li><a href="">男士腰带</a></li>
-							<li><a href="">旅行双肩</a></li>
-							<li><a href="">手提袋</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2">
-						<div class="content3_b2img">
-							<a href=""><img src="images/a29a7865-04d8-46df-aeec-2d814a530c74.jpg" alt=""></a>
-							<a href=""><img src="images/clxb1.jpg" alt=""></a>
-						</div>	
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></l>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></l>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>												
-					</div>
-					<div class="content3_b3 line1"><a href=""><img src="images/85ac27ea-3f97-4bb3-abde-4e8b4eaa0df1.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/de8f58ba-bd7e-45c3-801b-73bb7ee180ba.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/0dbb7ddc-87b5-4e8a-93a0-59deb91a3df5.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/10da83ac-7e5c-4ea6-a267-d528559c99c4.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 美容护肤 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">美容护肤</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">面膜</a></li>
-							<li><a href="">护肤</a></li>
-							<li><a href="">乳液</a></li>
-							<li><a href="">精华液</a></li>
-							<li><a href="">护手霜</a></li>
-							<li><a href="">爽肤水</a></li>
-							<li><a href="">洁面</a></li>
-							<li><a href="">眼霜</a></li>
-							<li><a href="">身体护理</a></li>
-							<li><a href="">BB霜</a></li>
-							<li><a href="">男士护理</a></li>
-							<li><a href="">爽肤水</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2">
-						<div class="content3_b2img">
-							<a href=""><img src="images/0bdc073f-7b16-4943-bc4c-1a31e29e027b.jpg" alt=""></a>
-							<a href=""><img src="images/mrhh1.jpg" alt=""></a>
-						</div>
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></l>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></l>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>						
-					</div>
-					<div class="content3_b3 line1"><a href=""><img src="images/106b7b3a-71f5-4678-abc6-1fab5071c4fc.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/6df7709b-6503-4532-972c-23d2209f6bff.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/1f47160b-0ecd-4bdd-9868-bd6bc8eaae9a.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/e856fe62-8372-4ed0-8215-69d64933ebd2.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 运动户外 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">运动户外</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">短袖</a></li>
-							<li><a href="">POLO衫</a></li>
-							<li><a href="">短裤</a></li>
-							<li><a href="">运动裤</a></li>
-							<li><a href="">泳裤</a></li>
-							<li><a href="">拖鞋</a></li>
-							<li><a href="">复古鞋</a></li>
-							<li><a href="">跑步鞋</a></li>
-							<li><a href="">帆布鞋</a></li>
-							<li><a href="">篮球鞋</a></li>
-							<li><a href="">男鞋</a></li>
-							<li><a href="">运动户外</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2">
-						<div class="content3_b2img">
-							<a href=""><img src="images/c9fbe482-e9a3-41ff-b92b-1b8578f1e61a.jpg" alt=""></a>
-							<a href=""><img src="images/ydhw1.jpg" alt=""></a>
-						</div>
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></l>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></l>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>						
-					</div>
-					<div class="content3_b3 line1"><a href=""><img src="images/8cf10361-4832-4cd1-90ee-1d807481c669.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/c1796455-01a5-4b6a-a0ee-2c1d1d55b3f5.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/4eb531bd-b2bd-4b11-8791-250cc8ae3fd6.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/953fc46b-4c9d-4ee1-bc42-402800ad6932.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 内衣配饰 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">内衣配饰</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">文胸</a></li>
-							<li><a href="">底裤</a></li>
-							<li><a href="">家居服</a></li>
-							<li><a href="">吊带</a></li>
-							<li><a href="">塑身</a></li>
-							<li><a href="">袜品</a></li>
-							<li><a href="">黄金</a></li>
-							<li><a href="">翡翠</a></li>
-							<li><a href="">珍珠</a></li>
-							<li><a href="">钻石</a></li>
-							<li><a href="">手表</a></li>
-							<li><a href="">太阳镜</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2">
-						<div class="content3_b2img">
-							<a href=""><img src="images/3ed7ff6f-9822-4e97-8c88-addd9ccebb42.jpg" alt=""></a>
-							<a href=""><img src="images/nyps1.jpg" alt=""></a>
-						</div>
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></l>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></l>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>						
-					</div>
-					<div class="content3_b3 line1"><a href=""><img src="images/7c8bb857-2fdd-4687-a50c-41f0cfb68c70.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/446881a6-909d-43b3-ad0a-50fc95ecf7e0.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/e1699886-f362-4c46-b625-c56d46664382.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/1f55763f-56a2-44b5-8ed0-9c8702f1cf52.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 婴童家居 -->
-		<div class="content_3 floor">
-			<div class="content3_out">
-				<div class="content3_top">
-					<ul>
-						<li><a href=""><p class="content3_t1">婴童家居</p></a></li>
-						<li><p class="content3_t2">|</p></li>
-						<li><a href=""><p class="content3_t3">LUXURY</p><p class="content3_t3">GOODS</p></a></li>
-					</ul>
-				</div>
-				<div class="content3_bot">
-					<div class="content3_b1">
-						<ul>
-							<li><a href="">T恤</a></li>
-							<li><a href="">四件套</a></li>
-							<li><a href="">学与玩</a></li>
-							<li><a href="">尿裤</a></li>
-							<li><a href="">童鞋</a></li>
-							<li><a href="">衬衫</a></li>
-							<li><a href="">夏凉被</a></li>
-							<li><a href="">喂养</a></li>
-							<li><a href="">休闲裤</a></li>
-							<li><a href="">婴幼</a></li>
-							<li><a href="">孕产</a></li>
-							<li><a href="">收纳用品</a></li>
-						</ul>
-						<div class="content3_b1bt">
-							<div class="content3_b1bt1">
-								<a href=""><img src="images/24.jpg" alt=""></a>
-								<a href=""><img src="images/25.jpg" alt=""></a>
-								<a href=""><img src="images/26.jpg" alt=""></a>
-								<a href=""><img src="images/27.jpg" alt=""></a>
-							</div>
-						</div>
-					</div>
-					<div class="content3_b2">
-						<div class="content3_b2img">
-							<a href=""><img src="images/f195af99-df8d-4d34-ac3c-dbd6224a4bb6.jpg" alt=""></a>
-							<a href=""><img src="images/ytjj1.jpg" alt=""></a>
-						</div>
-						<ul class="content3_li12">
-							<li  class="content3_lil"><img src="images/btnll.jpg" alt=""></l>
-							<li  class="content3_lir"><img src="images/btnrr.jpg" alt=""></l>
-						</ul>
-						<ul class="content3_li34">
-							<li  class="content3_li3"></li>
-							<li  class="content3_li4"></li>
-						</ul>						
-					</div>
-					<div class="content3_b3 line1"><a href=""><img src="images/8e574f0e-ee5b-4ee5-b327-9da22af1af3e.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b4 line1"><a href=""><img src="images/b0c99194-0ed4-47bf-8e31-4b489bbf5ac9.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/24e1a2b5-0cb7-4e8d-b168-51223648bf60.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-					<div class="content3_b5 line1"><a href=""><img src="images/e4a61483-ec0f-4d3a-b821-6c8ebfaf1848.jpg" alt=""></a>
-							<div class="b2_left"></div>
-							<div class="b2_right"></div>
-							<div class="b2_top"></div>
-							<div class="b2_bottom"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 小背景 -->
-		<div class="xbj">
-			<a href=""><img src="images/43.jpg" alt=""></a>
+			<div class="clearfix"></div>
 		</div>
 	</div>
-	<!-- footer -->
-	<div class="foot">
-		<div class="foot1">
-			<div class="foot1_1">
-				<ul>
-					<li><h3>400-119-1111</h3><p>service@yintai.com</p></li>
-					<li><p>8:00-24:00</p></li>
-				</ul>
+</div>
+<!--//services-->
+
+<!-- contact-us -->
+<div class="contact-us">
+
+	<div class="container">
+		<div class="contact-grids">
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
+				<p>北京</p>
 			</div>
-			<div class="foot1_2">
-				<ul>
-					<li><p class="yiwu">15天</p><p class="yiliu">无忧退货</p></li>
-					<li><p class="yiqi">为您提供售后服务</p></li>
-				</ul>
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+				<p><a href="429211537@qq.com">429211537@qq.com</a></p>
 			</div>
-			<div class="foot1_3">
-				<ul>
-					<li><p class="yiwu">100%</p><p class="yiliu">正品保证</p></li>
-					<li><p class="yiqi">品质保证 品质无忧</p></li>
-				</ul>	
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
+				<p>1823409090</p>
 			</div>
-			<div class="foot1_4">
-				<ul>
-					<li><p class="yiwu">满200元</p><p class="yiliu">免运费</p></li>
-					<li><p class="yiqi">为您提供便利物流</p></li>
-				</ul>	
-			</div>
-		</div>
-		<div class="foot2">
-			<ul>
-				<li><a href="">关于银泰</a></li>
-				<li>|</li>
-				<li><a href="">帮助中心</a></li>
-				<li>|</li>
-				<li><a href="">退货政策</a></li>
-				<li>|</a></li>
-				<li><a href="">网站地图</a></li>
-				<li>|</a></li>
-				<li><a href="">代理合作</a></li>
-				<li>|</li>
-				<li><a href="">品牌招商</a></li>
-				<li>|</li>
-				<li><a href="">商务合作</a></li>
-				<li>|</li>
-				<li><a href="">网站联盟</a></li>
-				<li>|</li>
-				<li><a href="">联系我们</a></li>
-				<li>|</li>
-				<li><a href="">加入银泰</a></li>
-				<li>|</li>
-				<li><a href="">版权声明</a></li>
-				<li>|</li>
-				<li><a href="">法律声明</a></li>
-			</ul>
-		</div>
-		<div class="foot3">
-			<ul>
-				<li>
-					<p>浙ICP备10200233号</p>
-				</li>
-				<li>
-					<p>京公网安备110105019085</p>
-				</li>
-				<li>
-					<p>增值电信业务经营许可证：浙B2-20110005</p>
-				</li>
-			</ul>
-		</div>
-		<div class="foot4"><p>Yintai © 2016, 银泰电子商务有限公司</p></div>
-		<div class="foot5">
-			<div class="foot5_1"><img src="images/yt-ntegrity.png" alt=""></div>
-			<div class="foot5_1"><img src="images/cnnic.png" alt=""></div>
-			<div class="foot5_1"><img src="images/commerce.gif" alt=""></div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
-	<!-- fixed -->
-	<div class="guding">
-		<ul>
-			<li><img src="images/fix1.jpg" alt=""><span class="sp">时尚名品</span></li>
-			<li><img src="images/fix2.jpg" alt=""><span class="sp">潮流女装</span></li>
-			<li><img src="images/fix3.jpg" alt=""><span class="sp">精品男装</span></li>
-			<li><img src="images/fix4.jpg" alt=""><span class="sp">时尚鞋靴</span></li>
-			<li><img src="images/fix5.jpg" alt=""><span class="sp">潮流箱包</span></li>
-			<li><img src="images/fix6.jpg" alt=""><span class="sp">美容护肤</span></li>
-			<li><img src="images/fix7.jpg" alt=""><span class="sp">运动户外</span></li>
-			<li><img src="images/fix8.jpg" alt=""><span class="sp">内衣配饰</span></li>
-			<li><img src="images/fix9.jpg" alt=""><span class="sp">婴童家居</span></li>
-			<li class="btop"><a href=""><img src="images/fix10.jpg" alt=""></a></li>
-		</ul>
+</div>
+<!-- //contact-us -->
+<!-- footer -->
+<div class="copy-right">
+	<div class="container">
+		<!-- <p> &copy; 2016 Peak. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p> -->
 	</div>
+</div>
+<!-- footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
 </body>
 </html>
